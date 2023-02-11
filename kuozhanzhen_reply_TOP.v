@@ -27,7 +27,7 @@ module kuozhanzhen_reply_TOP(
     //input                             touch_key       ,//这个触摸按键有失效的，一直按着只能拉高一段时间，之后就会拉低失效，就要重新松手再按
     
     //AD芯片接口
-	output								ad_sample_clk   ,
+	output								ad_sample_clk   , //ad采样时钟
     input               [7:0]           ad_data_in      , //AD输入数据
     //模拟输入电压超出量程标志(作为指示灯)
     input                               ad_otr          , //0:在量程范围内 1:超出量程
