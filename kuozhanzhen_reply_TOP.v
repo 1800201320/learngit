@@ -220,7 +220,7 @@ pulse_detection_top	u_pulse_detection_top
     );
 //结束了
 //日期
-//fast
+//fast and simple
 
 
 
