@@ -23,7 +23,7 @@ module kuozhanzhen_reply_TOP(
     input                               sys_clk         ,
     input                               sys_res_n       ,
     
-	input								udp_rec_data_key,
+	input								udp_rec_data_key,//普通按键，非触摸按键
     //input                             touch_key       ,//这个触摸按键有失效的，一直按着只能拉高一段时间，之后就会拉低失效，就要重新松手再按
     
     //AD芯片接口
