@@ -220,7 +220,11 @@ pulse_detection_top	u_pulse_detection_top
     );
 //结束了
 //日期
-//fast & simple
+<<<<<<< HEAD
+//fast and simple
+=======
+//fast and simple
+>>>>>>> feature1
 
 
 
